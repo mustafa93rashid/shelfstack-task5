@@ -106,7 +106,7 @@ npx tsc
 Run the compiled file:
 
 ```bash
-node dist/index.js
+node ./library.js
 ```
 
 ---
@@ -142,25 +142,7 @@ node dist/index.js
 
 - Each branch contains a **complete and separate implementation**
 - No need for external libraries in JavaScript version
-- TypeScript version includes `tsconfig.json`
-- `node_modules` is ignored using `.gitignore`
 
----
-
-## 🔗 Git Instructions
-
-To switch between versions:
-
-```bash
-git checkout javascript
-git checkout typescript
-```
-
-To list branches:
-
-```bash
-git branch -a
-```
 
 ---
 
